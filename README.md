@@ -17,6 +17,7 @@ How to compile
 cd iot-ionic
 ionic platform add android
 android
+
 ```
 
 配置
@@ -25,3 +26,8 @@ android
 ionic build android
 ionic emulate android
 ```
+
+ionic plugin add https://github.com/apache/cordova-plugin-whitelist.git
+
+or your app cannot access network!!!!!!
+
